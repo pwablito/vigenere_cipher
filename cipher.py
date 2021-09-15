@@ -11,7 +11,7 @@ def get_valid_characters(message):
 
 
 def character_to_number(character):
-    return ord(character.lower()) - ord('a')
+    return ord(character) - ord('a')
 
 
 def number_to_character(number):
